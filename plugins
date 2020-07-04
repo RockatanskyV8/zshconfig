@@ -1,6 +1,7 @@
 # vim: filetype=zsh
 
 ## Plugins section: Enable fish style features
+source ./zsh_plugins/spaceship-prompt/spaceship.zsh
 # Use syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Use history substring search
