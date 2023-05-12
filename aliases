@@ -5,3 +5,10 @@ alias df='df -h'                                                # Human-readable
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 alias b64='python3 $HOME/.scripts/b64.py'
+alias cals='awk -F";" "'"{print $1 $2 $3}"'" $HOME/Documentos/Lists/calorias.txt'
+alias ytdl-music='youtube-dl --extract-audio --audio-format "mp3" --audio-quality 0'
+alias ytdl-musiclst='youtube-dl --yes-playlist -i --extract-audio --audio-format "mp3" --audio-quality 0'
+alias aluraup='source ~/Repos/aluraenv/bin/activate'
+alias organize='sh ~/.config/zsh/scripts/move_filesV2.sh'
+alias pdf_to_txt='sh ~/.config/zsh/scripts/pdf_text_conversor.sh'
+alias dumpHtml='w3m -dump -o display_charset=UTF-8'
